@@ -7,7 +7,7 @@ def get_ticker(name):
     return company
 
 
-st.markdown("# Current Prices")
+st.markdown("# Current and Previous Prices")
 st.sidebar.markdown("# Current Prices")
 textInput = st.text_input(
     "Company Name",
