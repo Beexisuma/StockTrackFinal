@@ -12,7 +12,7 @@ st.sidebar.markdown("# Current Prices")
 textInput = st.text_input(
     "Company Name",
     max_chars=10,
-    placeholder="Type Company Name Here!",
+    placeholder="Type Company Ticker Here!",
     label_visibility="visible"
 )
 startDate = st.date_input("Start Date")
